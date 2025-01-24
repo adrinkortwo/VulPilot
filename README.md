@@ -1,4 +1,4 @@
-# VulUnderstander
+# VulPilot
 Aspect-Level Explanation Generation for Vulnerability Understanding via Semantics-Aware Commit Representation Learning
 ## Abstract
 Open Source Software (OSS) is now ubiquitous, but the inability to understand new vulnerabilities introduced by OSS poses significant risks. OSS updates are often applied silently, and these updates may introduce new vulnerabilities, particularly in dependent repositories (dependency updates). Third-party developers frequently fail to address these vulnerabilities promptly, leading to indirect, persistent, and potentially stealthy harm to downstream users. While prior studies have focused on detecting silent vulnerabilities, they often overlook a critical requirement: providing key vulnerability aspects to help third-party developers effectively mitigate risks.
