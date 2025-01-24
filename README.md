@@ -16,5 +16,5 @@ python preprocess/merge_pdg.py
 ```
 python key phrase extraction/preprocessing.py
 python key phrase extraction/candidate.py
-python key phrase extraction/merge_pdg.py
+python key phrase extraction/rank.py
 ```
