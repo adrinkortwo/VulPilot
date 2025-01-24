@@ -8,10 +8,9 @@ To tackle the challenges of generating key vulnerability aspects, such as insuff
 ![图片描述](images/overview.png)
 ## Data Preprocessing
 ```
-    &lt;html>
-      &lt;head>
-      &lt;/head>
-    &lt;/html>
+python preprocess/get_ab_file.py
+python preprocess/gen_cpg.py
+python preprocess/merge_pdg.py
 ```
 ## Model Training and Testing
 ```
