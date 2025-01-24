@@ -5,7 +5,7 @@ Open Source Software (OSS) is now ubiquitous, but the inability to understand ne
 
 To tackle the challenges of generating key vulnerability aspects, such as insufficient code context representation and noise in commit messages, we propose VulUnderstander, a framework for generating aspect-level explanations to aid in vulnerability understanding. Given the lack of explanation-focused datasets, we first manually constructed a dataset of key vulnerability aspects for explanation generation. Next, we construct diff-PDG and perform program slicing to extract a semantics-aware code context. For commit messages, we apply denoising by ranking key phrases based on mask similarity. Finally, we integrate features through an encoder-decoder model to generate explanations for four key vulnerability aspects. Experiments demonstrate that VulUnderstander achieves ROUGE-L improvements of 5.9% to 18.8% over state-of-the-art baselines. A user study further confirms that the generated explanations improve users' understanding of vulnerabilities.
 ## Overview
-![图片描述](images/overview.png)
+![图片描述](images/overview.pdf)
 ## Data Preprocessing
 ```
     &lt;html>
